@@ -1,0 +1,51 @@
+article {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+section {
+  margin: 1em auto;
+  width: 400px;
+  font-family: "Work Sans", sans-serif;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 0px rgba(204, 204, 204, 1);
+}
+.contact,
+.bio,
+.name {
+  margin: 0;
+}
+p {
+  margin: 0.2em 0;
+}
+.blue {
+  background-color: #1ecefd;
+  height: 200px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  margin: 0;
+}
+.contact {
+  text-decoration: none;
+  color: grey;
+  /* margin: 0 1em; */
+}
+.bio {
+  color: #505355;
+  padding: 0 1em;
+}
+
+.edit {
+  background-color: #505355;
+  color: white;
+  width: 370px;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.25em;
+  transition: 0.25s;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.edit:hover {
+  background-color: #5becd8;
+}
