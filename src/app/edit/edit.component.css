@@ -17,6 +17,7 @@ input {
   margin: 0.25em 0.25em;
 }
 input[type="text"],
+input[type="email"],
 textarea {
   padding: 14px;
   border: 1px solid black;

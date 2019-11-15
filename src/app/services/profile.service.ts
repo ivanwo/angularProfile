@@ -8,7 +8,7 @@ export class ProfileService {
   // private userProfile: UserProfile;
 
   private userProfile: UserProfile = {
-    contact: "ivan@dr3am.space",
+    contact: "ivanwolyniec@gmail.com",
     bio: "a motivated front end developer",
     name: "ivan"
   };

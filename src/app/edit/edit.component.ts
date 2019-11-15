@@ -8,9 +8,10 @@ import { Router } from "@angular/router";
   styleUrls: ["./edit.component.css"]
 })
 export class EditComponent implements OnInit {
-  nameChange: string = "";
-  contactChange: string = "";
-  bioChange: string = "";
+  nameChange: string;
+  contactChange: string;
+  bioChange: string;
+
   constructor(private profileService: ProfileService, private router: Router) {}
 
   onSubmit(): void {
@@ -21,5 +22,9 @@ export class EditComponent implements OnInit {
     });
     this.router.navigate(["/profile"]);
   }
-  ngOnInit() {}
+  ngOnInit() {
+    this.nameChange = this.profileService.getUserProfile().name;
+    this.contactChange = this.profileService.getUserProfile().contact;
+    this.bioChange = this.profileService.getUserProfile().bio;
+  }
 }

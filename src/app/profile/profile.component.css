@@ -19,8 +19,11 @@ p {
   margin: 0.2em 0;
 }
 .blue {
-  background-color: #1ecefd;
-  height: 200px;
+  /* background-color: #1ecefd; */
+  background-image: url("https://i1.rgstatic.net/ii/profile.image/747762811424768-1555291955857_Q128/Ivan_Wolyniec2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
   margin: 0;

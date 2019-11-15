@@ -3,7 +3,9 @@
   <div class="blue"></div>
   <article>
     <h3 class="name">{{ userProfile.name }}</h3>
-    <a href="#" class="contact">{{ userProfile.contact }}</a>
+    <a href="mailto:{{ userProfile.contact }}" class="contact">{{
+      userProfile.contact
+    }}</a>
     <p contact="bio">{{ userProfile.bio }}</p>
     <a routerLink="../edit-profile" class="edit">Edit</a>
   </article>
